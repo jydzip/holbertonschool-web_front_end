@@ -305,6 +305,9 @@ ul.row {
     left: 0;
     bottom: 0;
 }
+.card-work .card-image {
+    transition: var(--transition-duration) var(--transition-cubic-bezier);
+}
 .card-work:hover .card-title {
     opacity: 1;
 }
